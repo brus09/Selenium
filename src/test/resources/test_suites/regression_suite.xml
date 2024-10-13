@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="demoqa.listeners.ScreenshotListener"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true" name="D:/Spring2024/GitSpring2024/Selenium">
+    <test verbose="2" preserve-order="true" name="/Spring2024/GitSpring2024/Selenium">
         <classes>
 
             <class name="demoqa_tests.AlertTests"/>
