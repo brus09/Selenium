@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class AlertTests extends BaseTest{
 
-    @Test
+    @Test(groups = {"UI", "TC-12"})
     void alertTest() throws InterruptedException {
         helper.getBrowserManager().openURL("https://demoqa.com/alerts");
         webElementActions.click(demoqaPages.getAlertPAge().alertButton);
@@ -13,7 +13,7 @@ public class AlertTests extends BaseTest{
         Thread.sleep(3000);
     }
 
-    @Test
+    @Test(groups = {"UI", "TC-13"})
     void alertTest1() throws InterruptedException {
         helper.getBrowserManager().openURL("https://demoqa.com/alerts");
         webElementActions.click(demoqaPages.getAlertPAge().timerAlertButton);
@@ -22,7 +22,7 @@ public class AlertTests extends BaseTest{
         Thread.sleep(3000);
     }
 
-    @Test
+    @Test(groups = {"UI", "TC-14"})
     void alertTest2() throws InterruptedException {
         helper.getBrowserManager().openURL("https://demoqa.com/alerts");
         webElementActions.click(demoqaPages.getAlertPAge().confirmButton);
@@ -32,7 +32,7 @@ public class AlertTests extends BaseTest{
         Thread.sleep(3000);
     }
 
-    @Test
+    @Test(groups = {"UI", "TC-15clean"})
     void alertTest3() throws InterruptedException {
         helper.getBrowserManager().openURL("https://demoqa.com/alerts");
         webElementActions.click(demoqaPages.getAlertPAge().promtButton);
