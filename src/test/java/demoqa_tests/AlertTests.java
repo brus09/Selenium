@@ -32,7 +32,7 @@ public class AlertTests extends BaseTest{
         Thread.sleep(3000);
     }
 
-    @Test(groups = {"UI", "TC-15clean"})
+    @Test(groups = {"UI", "TC-15"})
     void alertTest3() throws InterruptedException {
         helper.getBrowserManager().openURL("https://demoqa.com/alerts");
         webElementActions.click(demoqaPages.getAlertPAge().promtButton);

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ButtonsTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"API", "TC-16"})
     void testButtons() throws InterruptedException {
         driver.get("https://demoqa.com/buttons");
         webElementActions.doubleClick(demoqaPages.getButtonsPage().doubleClickButton);

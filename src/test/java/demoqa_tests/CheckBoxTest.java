@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class CheckBoxTest extends BaseTest{
 
 
-    @Test
+    @Test(groups = {"API", "TC-17"})
     public void testSelectHomeCheckBox() throws InterruptedException {
 
         helper.getBrowserManager().openURL("https://demoqa.com/checkbox");
