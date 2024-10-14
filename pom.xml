@@ -103,8 +103,8 @@
                     <!--                    <reuseForks>true</reuseForks>-->
                     <!--                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>D:\Spring2024\GitSpring2024\Selenium\src\test\resources\test_suites\smoke_suite.xml</suiteXmlFile>
-                        <suiteXmlFile>D:\Spring2024\GitSpring2024\Selenium\src\test\resources\test_suites\regression_suite.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\test_suites\smoke_suite.xml</suiteXmlFile>
+                        <suiteXmlFile>src\test\resources\test_suites\regression_suite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <!-- java heap size = Xms2048m = 2GB -->
